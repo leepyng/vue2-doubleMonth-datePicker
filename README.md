@@ -9,8 +9,9 @@ easy web double date selector of a vue 2.0 component
 </p>
 
 # install
+
 	
-	npm install vue2-doubleMonth-datePicker --save-dev
+	npm install vue2-doublemonth-datepikcer --save-dev
 	
 
 # how to use
