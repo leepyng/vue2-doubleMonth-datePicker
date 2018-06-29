@@ -1,21 +1,21 @@
-# vue-datepicker-infinite
-easy datepicker of a vue 2.0 component
+# vue2-doubleMonth-datePicker
+easy web double date selector of a vue 2.0 component
 <p align="center">
 
 
-<img src="https://github.com/leepyng/vue-datepicker-infinite/blob/master/git/QQ20180508-153441.gif" alt="Coverage Status">
+<img src="https://github.com/leepyng/vue2-doubleMonth-datePicker/blob/master/git/QQ20180629-173252.gif" alt="Coverage Status">
 
 
 </p>
 
-<!-- # install
+# install
 	
-	npm install vue2-datepicker-infinite --save
-	 -->
+	npm install vue2-doubleMonth-datePicker --save-dev
+	
 
 # how to use
 	template:
-		<transition  name="slide" >
+		<transition  name="fade" >
 			<DatePicker  @select="calendar.select" v-show="calendar.show" :start="calendar.start"  :beginDate="calendar.begin" :endDate="calendar.end"></DatePicker>
 		</transition>
 	
